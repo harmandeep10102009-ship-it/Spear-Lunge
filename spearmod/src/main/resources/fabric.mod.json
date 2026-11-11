@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "spearmod",
+  "version": "${version}",
+  "name": "Spear Mod",
+  "description": "Adds spears to Minecraft 1.16.5, inspired by the 1.21.11 spear.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.spearmod.SpearMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": ">=0.42.0",
+    "minecraft": "1.16.5",
+    "java": ">=8"
+  }
+}
